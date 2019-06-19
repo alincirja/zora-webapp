@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Zora .: Add Peoperty Page :.</title>
+
+	<meta charset="utf-8">
+
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<!--[if lt IE 9]><script src="js/html5shiv.js"></script><script src="js/respond.src.js"></script><![endif]-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<!-- Plugin-uri -->
+
+	<!-- Stiluri generale -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>	
+
+	<div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+        	<div class="sidebar-top">
+        		<div class="brand text-center"><a href="#"><img src="img/logo.png" alt="Zora"></a></div><!--/.brand-->
+        		<div class="user clearfix">
+        			<div class="avatar">
+        				<a href="#"><img src="img/user-avatar.jpg" alt="" /></a>
+        			</div><!--/.avatar-->
+        			<div class="info">
+        				<a href="#" class="name">James Richardson</a>
+        				<span class="email">james@richardson.com</span>
+        			</div><!--/.info-->
+        		</div><!--/.user-->
+        	</div><!--/.sidebar-top-->
+            	
+
+            <ul class="sidebar-nav list-unstyled">
+                <li class="active"><a href="#"><i class="glyphicon glyphicon-map-marker"></i><span>properties</span></a></li>
+                <li class=""><a href="#"><i class="fa fa-file"></i><span>applicants</span></a></li>
+                <li class=""><a href="#"><i class="fa fa-group"></i><span>tenants</span></a></li>
+                <li class=""><a href="#"><i class="fa fa-eye"></i><span>viewings</span></a></li>
+                <li class=""><a href="#"><i class="fa fa-gear"></i><span>settings</span></a></li>
+            </ul>
+
+            <div class="help">
+                <h5>Need Help?</h5>
+                <ul class="list-unstyled">
+                    <li>Call us at +1 888 543 7432</li>
+                    <li>Email us at hello@zora.io</li>
+                </ul>
+            </div><!--/.help-->
+
+            <a href="#" class="request-feature request">Request a Feature</a>
+            <a href="#" class="request-feature feedback"><i></i><span>Feedback</span></a>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+
+        	<div class="icon-bar">
+               <a href="#menu-toggle" class="icon menu-toggle" id="menu-toggle">
+                <span class="line"></span>
+                <span class="arrow">
+                </span>
+               </a>
+               <a href="#" class="icon notifications"><i class="fa fa-bell-o"></i><span class="badge badge-sm badge-up">2</span></a>
+               <a href="#" class="icon log-out"><i class="fa fa-power-off"></i></a>
+        	</div><!--/.icon-bar-->
+
+            <div class="container-fluid">
+
+            	<h3>Rent a Property</h3>
+
+                <div class="add-property">
+
+
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h4><span>Address &amp; Space</span></h4>
+
+                            <form class="form">
+                                <div class="form-group row">
+                                    <div class="col-lg-3"><label>Address</label></div>
+                                    <div class="col-lg-8"><input type="text" class="form-control"></div>
+                                </div><!--/.form-group-->
+                                <div class="form-group row">
+                                    <div class="col-lg-3"><label>Country</label></div>
+                                    <div class="col-lg-8">
+                                        <select class="custom-select icon-select">
+                                            <option data-icon="../img/icons/flags/usa.png">United States of America</option>
+                                        </select>
+                                    </div>
+                                </div><!--/.form-group-->
+                                <div class="form-group row">
+                                    <div class="col-lg-3"><label>City</label></div>
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-sm-6 ">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-sm-2 text-center">
+                                                <label>State</label>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <select class="custom-select">
+                                                    <option>NV</option>
+                                                </select>
+                                            </div>
+                                        </div><!--/.row-->
+                                    </div>
+                                </div><!--/.form-group-->
+                                <div class="form-group row">
+                                    <div class="col-lg-3"><label>Zip Code</label></div>
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-sm-6 ">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div><!--/.row-->
+                                    </div>
+                                </div><!--/.form-group-->
+                                <div class="form-group row">
+                                    <div class="col-lg-3"><label>Bedrooms</label></div>
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-sm-4 ">
+                                                <select class="custom-select">
+                                                    <option>4</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-4 text-center">
+                                                <label>Bedrooms</label>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <select class="custom-select">
+                                                    <option>2,5</option>
+                                                </select>
+                                            </div>
+                                        </div><!--/.row-->
+                                    </div>
+                                </div><!--/.form-group-->
+                                <div class="form-group row">
+                                    <div class="col-lg-3"><label>Interor Size</label></div>
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-xs-8 ">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-xs-4 col-sm-6">
+                                                <span>Sq. Ft. </span>
+                                            </div>
+                                        </div><!--/.row-->
+                                    </div>
+                                </div><!--/.form-group-->
+                                <div class="form-group row">
+                                    <div class="col-lg-3"><label>Garage/Parking</label></div>
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-xs-6 col-sm-7 col-lg-4">
+                                                <select class="custom-select">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-6 col-sm-5 col-lg-5">
+                                                <span>Parking Spot</span>
+                                            </div>
+                                        </div><!--/.row-->
+                                    </div>
+                                </div><!--/.form-group-->
+
+                                <h4><span>Description</span></h4>
+                                <div class="form-group">
+                                    <textarea class="form-control"></textarea>
+                                    <div class="max-chars">500 Characters Max. <span>34/500</span></div>
+                                </div><!--/.form-group-->
+                            </form>
+                        </div>
+
+                        <div class="col-md-1"></div>
+
+                        <div class="col-md-5">
+                            <h4><span>Lease Terms</span></h4>
+                            <form class="form">
+                                <div class="form-group row">
+                                    <div class="col-lg-4"><label>Monthly Rent</label></div>
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-xs-6 ">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <span>USD</span>
+                                            </div>
+                                        </div><!--/.row-->
+                                    </div>
+                                </div><!--/.form-group-->
+                                <div class="form-group row">
+                                    <div class="col-lg-4"><label>Security Deposit</label></div>
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-xs-6 ">
+                                                <select class="custom-select">
+                                                    <option>1 Month</option>
+                                                    <option>2 Month</option>
+                                                </select>
+                                                <div class="det-info">1/2 Month recomended. <a href="#">Why?</a></div>
+                                            </div>
+                                            <div class="col-xs-6"><span>$4,350 USD</span></div>
+                                        </div><!--/.row-->
+                                    </div>
+                                </div><!--/.form-group-->
+                                <div class="form-group row">
+                                    <div class="col-lg-4"><label>Lease Duration</label></div>
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-sm-6 ">
+                                                <select class="custom-select">
+                                                    <option>1 Year</option>
+                                                    <option>2 Year</option>
+                                                    <option>3 Year</option>
+                                                </select>
+                                            </div>
+                                        </div><!--/.row-->
+                                    </div>
+                                </div><!--/.form-group-->
+                                <div class="form-group row">
+                                    <div class="col-lg-4"><label>Pets Allowed?</label></div>
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-sm-6 ">
+                                                <select class="custom-select">
+                                                    <option>Dogs &amp; Cats</option>
+                                                </select>
+                                            </div>
+                                        </div><!--/.row-->
+                                    </div>
+                                </div><!--/.form-group-->
+
+                                <h4><span>Utilities Included</span></h4>
+                                <div class="row">
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Electricity</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Internet</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Water</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Heating</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                </div><!--/.row-->
+
+
+                                <h4 class="aments"><span>Amenities</span></h4>
+
+                                <div class="row">
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Washer</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Dryer</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Dishwasher</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Deck/Yard</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Gym</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Pool</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Fireplace</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <label class="custom-checkbox">
+                                            <input type="checkbox">
+                                            <span class="icon"><i class="fa fa-check"></i></span>
+                                            <span class="text">Storage Area</span>
+                                        </label><!--/.custom-checkbox-->
+                                    </div>
+                                    <div class="col-sm-4 col-xs-6">
+                                        <a href="#" class="trigger more"></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-11">
+                            <h4><span>Property Photos</span></h4>
+
+                            <div class="property-photos">
+                                <ul class="list-photos list-unstyled list-inline">
+                                    <li class="add-new-photo">
+                                        <div class="image">
+                                            <div class="image-content">
+                                                <label>
+                                                    <input type="file">
+                                                    <i class="fa fa-cloud-download"></i>
+                                                    <span>Drag &amp; Drop a Photo</span>
+                                                    <span>Or Click Here.</span>
+                                                </label>
+                                            </div>
+                                        </div><!--/.image-->
+                                    </li>
+                                    <li class="added-photo">
+                                        <div class="actions"><span><b>Main Image</b></span> <a href="#" class="act-btn remove"><img src="img/icons/remove-avatar.png"></a></div>
+                                        <div class="image"><div class="image-content"><img src="img/gallery/img-3.jpg" alt="" /><!--/.image-content--></div><!--/.image--></div>
+                                        <div class="description">Entrace <a href="#" class="act-btn edit"><img src="img/icons/edit-avatar.png"></a></div>
+                                    </li>
+                                    <li class="added-photo">
+                                        <div class="actions"><span><a href="#">Set as Main</a></span> <a href="#" class="act-btn remove"><img src="img/icons/remove-avatar.png"></a></div>
+                                        <div class="image"><div class="image-content"><img src="img/gallery/img-6.jpg" alt="" /><!--/.image-content--></div><!--/.image--></div>
+                                        <div class="description">Living Room <a href="#" class="act-btn edit"><img src="img/icons/edit-avatar.png"></a></div>
+                                    </li>
+                                    <li class="added-photo">
+                                        <div class="actions"><span><a href="#">Set as Main</a></span> <a href="#" class="act-btn remove"><img src="img/icons/remove-avatar.png"></a></div>
+                                        <div class="image"><div class="image-content"><img src="img/gallery/img-4.jpg" alt="" /><!--/.image-content--></div><!--/.image--></div>
+                                        <div class="description">Untitle Photo <a href="#" class="act-btn edit"><img src="img/icons/edit-avatar.png"></a></div>
+                                    </li>
+                                </ul>
+                            </div><!--/.property-photos-->
+                        </div>
+                    </div><!--/.row-->
+
+                    
+
+
+                </div><!--/.add-property-->
+                
+
+                <footer id="footer">
+        			<span>Made with <i class="glyphicon glyphicon-heart"></i> in Halifax &amp; Las Vegas. <span>v0.1</span></span>
+        		</footer>
+            </div><!--/.container-fluid-->
+        </div><!-- /#page-content-wrapper -->
+    </div><!-- /#wrapper -->
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<!-- Retina -->
+
+	<!-- Modernizr -->
+	<script type="text/javascript" src="js/modernizr.js"></script>
+
+	<!-- General Scripts -->
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+    <script type="text/javascript">
+        if ($(window).width() < 1090) {
+            $('.other-info').insertAfter('.st');
+        };
+    </script>
+</body>
+</html>	
